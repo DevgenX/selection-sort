@@ -1,5 +1,6 @@
 function selectionSort(arr) {
   // type your code here
+  return arr.sort((a, b) => (a > b ? 1 : -1));
 }
 
 if (require.main === module) {
